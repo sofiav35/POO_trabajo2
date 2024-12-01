@@ -17,6 +17,8 @@ public class Trabajador {
 		
 		System.out.println("Ingrese el valor por hora trabajada: ");
 		valor_hora_normal= datos.nextDouble();
+		
+		datos.close();
 	}
 	
 	public void calcular_salario() {

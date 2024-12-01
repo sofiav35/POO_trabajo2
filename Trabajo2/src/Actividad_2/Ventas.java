@@ -30,6 +30,8 @@ public class Ventas {
 		totalVentas=vDpt1+vDpt2+vDpt3;
 		porcentaje=totalVentas*0.33;
 		
+		entrada.close();
+		
 		}
 	
 	

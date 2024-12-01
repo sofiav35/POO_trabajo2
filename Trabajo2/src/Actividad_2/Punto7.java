@@ -22,5 +22,8 @@ public class Punto7 {
 		else {
 			System.out.println("El numero "+a+" es igual que el numero "+b);
 		}
+		
+		num1.close();
+		num2.close();
 	}	
 }

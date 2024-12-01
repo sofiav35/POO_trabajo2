@@ -39,6 +39,8 @@ public class Ejercicio23 {
 			
 			System.out.println("La única solución es 0");
 		}
+		
+		numero.close();
 	}
 
 }

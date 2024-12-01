@@ -11,6 +11,8 @@ public class Triangulo_equilatero {
 		Scanner valor = new Scanner(System.in); 
 		lado= valor.nextDouble();
 		
+		valor.close();
+		
 	}
 	
 	public void operaciones() {

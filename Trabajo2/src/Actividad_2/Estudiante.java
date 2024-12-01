@@ -26,6 +26,8 @@ public class Estudiante {
 		System.out.println("Ingrese el estrato social del estudiante: ");
 		estrato=estudiante.nextInt();
 		
+		estudiante.close();
+		
 	}
 	
 		public void calcula_costo_matricula() {

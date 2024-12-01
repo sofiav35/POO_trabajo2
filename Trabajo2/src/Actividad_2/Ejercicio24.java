@@ -32,6 +32,8 @@ public class Ejercicio24 {
 			
 			System.out.println("La esfera mas pesada es la C");
 		}
+		
+		peso.close();
 	} 
 	
 }

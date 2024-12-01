@@ -33,6 +33,8 @@ public class Ejercicio22 {
 			
 			System.out.println("NOMBRE:"+empleado);
 		}
+		
+		entrada.close();
 	}
 
 }

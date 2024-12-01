@@ -20,7 +20,9 @@ public class Almacen {
 		System.out.println("Ingrese el color de la pelota: ");
 		color= informacion.nextLine();
 	
+		informacion.close();
 	}
+
 	
 	public void calcular_descuento() {
 		

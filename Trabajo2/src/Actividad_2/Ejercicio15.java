@@ -19,6 +19,8 @@ public class Ejercicio15 {
 		
 		System.out.println("Ingrese el peso de la esfera D:");
 		D=peso.nextDouble();	
+		
+		peso.close();
 	}
 	
 	public void comparar_pesos() {

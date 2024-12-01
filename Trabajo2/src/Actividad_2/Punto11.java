@@ -30,7 +30,9 @@ public class Punto11 {
 
 			System.out.println("El numero mayor entre "+n1+", "+n2+", "+n3+" es "+n3);
 		}
-
+		
+		numero.close();
+		
 	}
 
 }

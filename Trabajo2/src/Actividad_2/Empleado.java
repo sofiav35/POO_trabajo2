@@ -40,6 +40,8 @@ public class Empleado {
 		 
 		 System.out.println("Ingrese el porcentaje de retencion: ");
 		 retencionFuente = empleado.nextDouble();
+		 
+		 empleado.close();
 	 }
 	 
 		

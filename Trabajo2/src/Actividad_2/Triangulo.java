@@ -22,6 +22,8 @@ public class Triangulo {
 		
 		System.out.println("Ingrese la longitud del tercer lado:");
 		lado3=lado.nextDouble();
+		
+		lado.close();
 	}
 	
 	public void calcular() {
