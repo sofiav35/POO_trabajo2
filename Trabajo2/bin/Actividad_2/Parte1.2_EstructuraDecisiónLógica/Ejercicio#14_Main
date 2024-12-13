@@ -1,0 +1,15 @@
+package Actividad_2;
+
+public class MainVentas {
+
+	public static void main(String args[]) {
+		
+		Ventas venta= new Ventas();
+		venta.obtener_datos();
+		venta.calcular_salario_Dpt1();
+		venta.calcular_salario_Dpt2();
+		venta.calcular_salario_Dpt3();
+		venta.mostrar_salarios();
+	}
+	
+}
